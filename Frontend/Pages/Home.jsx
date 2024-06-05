@@ -4,7 +4,9 @@ import TriangleDiv from '../Component/Triangle.jsx'
 export default function Home()
 {
     return (
-       <div className="md:h-16 h-28 mx-auto md:px-4">
+    <div className="md:h-16 h-28 mx-auto md:px-4">
+
+
       <div className="relative isolate px-6 pt-14 lg:px-8">
          <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -40,31 +42,102 @@ export default function Home()
           </div>
         </div>
         <div>
-        <div className="relative w h-11" style={{borderLeft: '50px solid transparent', borderRight: '50px solid transparent', borderBottom: '100px solid blue'}}>
-    </div>
         </div>
         </div>
-       
-        
-        <div className="flex justify-center items-center h-screen bg-gray-100">
-       <div className="flex flex-wrap justify-center space-x-6">
-        <Card
-          image="https://via.placeholder.com/150"
-          title="Card Title 1"
-          description="This is a brief description of the card content. It provides an overview of the card."
-        />
-        <Card
-          image="https://via.placeholder.com/150"
-          title="Card Title 2"
-          description="This is a brief description of the card content. It provides an overview of the card."
-        />
-        <Card
-          image="https://via.placeholder.com/150"
-          title="Card Title 3"
-          description="This is a brief description of the card content. It provides an overview of the card."
-        />
+
+
+
+        <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
+          Proven Strategic Process
+        </h2>
+        <div className='ml-60'>
+        <div className="justify-center bg-black mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 justify-items-center">
+          <img
+            className=" col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src=""
+            alt="Transistor"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src=""
+            alt="Reform"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src=""
+            alt="Tuple"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            src=""
+            alt="SavvyCal"
+            width={158}
+            height={48}
+          />
+        </div>
+        </div>
       </div>
     </div>
+
+    
+    <div>
+      <div>
+        <div className ="text-center">
+          <h1 className="bg-blacktext-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"> Why We ??</h1>
+        </div>
+        <div className='bg-blue'>
+            <div>
+              <img/>
+            </div>
+            <div>
+              <h1>
+
+              </h1>
+              <p>
+
+              </p>
+            </div>
+            <div>
+              <h1>
+
+              </h1>
+              <p>
+
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+    <div>
+    <div>
+      About us 
+    </div>
+    </div>
+
+
+
+
+    <div>
+      Contact us
+    </div>
+
+
+
+
+
     </div>
     )
 }
