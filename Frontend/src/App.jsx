@@ -12,7 +12,7 @@ import Footer from '../Component/Footer';
 function App() {
 
   return (
-    <BrowserRouter>
+  <BrowserRouter>
   <Header/>
   <Routes>
     <Route path='/' element={<Home/>}/>
@@ -24,7 +24,6 @@ function App() {
     <Route path='/service3' element={<Service3/>}/>
     <Route path='/admin' element={<Admin/>}/>
   </Routes>
-  <Footer/>
   </BrowserRouter>
   )
 }
