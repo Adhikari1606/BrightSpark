@@ -49,40 +49,44 @@ export default function Home()
 
         <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-          Proven Strategic Process
+        <h2 className="text-center text-3xl font-bold leading-8 text-gray-900 mb-4">
+          Our Trusted Clients
         </h2>
-        <div className='ml-60'>
-        <div className="justify-center bg-black mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 justify-items-center">
+        <div className="justify-center mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 justify-items-center mt-10
+        ">
           <img
             className=" col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src=""
-            alt="Transistor"
-            width={158}
+            src="../Images/Camile-Thai2.png"
+            alt="Transistor"            width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src=""
+            src="../Images/ConventionCentreDublin-300x224.jpeg"
             alt="Reform"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src=""
+            src="../Images/dromoland-castle.png"
             alt="Tuple"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src=""
+            src="../Images/TheSundayBusinessPost2-300x101.jpeg"
             alt="SavvyCal"
             width={158}
             height={48}
           />
-        </div>
+          <img 
+           className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+           src="../Images/Untitled-design-25-150x150.png"
+           alt="SavvyCal"
+           width={158}
+           height={48}/>
         </div>
       </div>
     </div>
@@ -95,22 +99,11 @@ export default function Home()
         </div>
         <div className='bg-blue'>
             <div>
-              <img/>
+              <img />
             </div>
-            <div>
-              <h1>
-
-              </h1>
+            <div ClassName>
               <p>
-
-              </p>
-            </div>
-            <div>
-              <h1>
-
-              </h1>
-              <p>
-
+                Brightspark is your partner for embracing digital transformation, driving innovation and helping clients gain a competitive edge as first movers in digital. Since our inception at the dawn of the Internet, we have built a strong reputation for staying ahead of trends. Our expertise extends beyond traditional digital marketing; today, we help businesses leverage AI to enhance their marketing strategies, operations, and customer interactions. We simplify AI for businesses through courses, consulting, and thought leadership on responsible AI use, prioritizing people-first approaches and ethical engagement. Recognized as a premier creator of Generative AI Courses, we equip individuals and businesses with essential AI knowledge and tools. Our partnerships with organizations like the Small Firms Association and consulting clients across various sectors highlight our dedication to fostering AI fluency. Our success stories, covered in national media, showcase the tangible value and transformative impact we deliver through AI-empowered marketing.
               </p>
             </div>
         </div>
