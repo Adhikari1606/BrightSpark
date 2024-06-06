@@ -24,6 +24,7 @@ function App() {
     <Route path='/service3' element={<Service3/>}/>
     <Route path='/admin' element={<Admin/>}/>
   </Routes>
+  <Footer/>
   </BrowserRouter>
   )
 }

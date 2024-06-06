@@ -143,16 +143,23 @@ export default function Home()
 
       </div>
       
+    
+
+
+    
+
+
+
     </div>
     <div className ="text-center">
           <h1 className="bg-blacktext-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"> Get In Touch</h1>
         </div>
-    <section class="bg-white ">
+    <section class="bg- ">
     <div class="container px-6 py-12 mx-auto">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400"></p>
 
-            <h1 class="mt-2 text-2xl font-semibold text-black md:text-3xl dark:text-white">Chat to our friendly team</h1>
+            <h1 class="mt-2 text-2xl font-semibold text-black md:text-3xl dark:text-black">Chat to our friendly team</h1>
 
             <p class="mt-3 text-gray-500 dark:text-gray-400">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
         </div>
@@ -168,7 +175,7 @@ export default function Home()
 
                     <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
                     <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">Brightspark@mail.com</p>
                 </div>
 
                 <div>
@@ -194,7 +201,7 @@ export default function Home()
                     
                     <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
                     <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
-                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">New Delhi ,India</p>
                 </div>
 
                 <div>
@@ -206,7 +213,7 @@ export default function Home()
                     
                     <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
                     <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
-                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555)123456</p>
                 </div>
             </div>
 
@@ -242,12 +249,6 @@ export default function Home()
         </div>
     </div>
 </section>
-
-
-
-    <div>
-      Contact us
-    </div>
 
 
 
