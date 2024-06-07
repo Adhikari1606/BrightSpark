@@ -8,8 +8,8 @@ import Companies from '../Component/companies.jsx'
 import About from '../Component/About.jsx'
 export default function Home() {
   return (
-    <div className="">
-      <Header />
+    <div className="App">
+      <Header/>
       <Hero />
       <Companies />
       <About />

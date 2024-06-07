@@ -31,8 +31,8 @@ export default function
                             className="inline-block px-6 py-3 text-lg text-black border-2 border-gray-400 rounded-xl bg-transparent transition duration-300 hover:border-blue-500">
                             Get started
                         </a>
-                        <a href="#" className="inline-block px-6 py-3 text-lg text-black rounded-xl transition duration-300 hover:bg-blue-500 hover:border-2 hover:border-blue-500">
-                            Learn more <span aria-hidden="true">→</span>
+                        <a href="/SignIn" className="inline-block px-6 py-3 text-lg text-black rounded-xl transition duration-300 hover:bg-blue-500 hover:border-2 hover:border-blue-500">
+                            SignIn <span aria-hidden="true">→</span>
                         </a>
                     </div>
                 </div>
