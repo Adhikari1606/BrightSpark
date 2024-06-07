@@ -1,25 +1,47 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const Admin = () => {
-  return (
-    <div className="flex mx-auto max-w-max px-6 lg:px-8 ">
-      <aside className="w-48 p-4 bg-gray-100">
-        <div className="w-36 h-36 bg-blue-500 text-white flex items-center justify-center rounded-lg">
-          Dashboard
+    const [enquiries, setEnquiries] = useState([]);
+
+    useEffect(() => {
+        const fetchEnquiries = async () => {
+            try {
+                const response = await axios.get('http://localhost:5000/enquiries');
+                setEnquiries(response.data);
+            } catch (error) {
+                console.error('Error fetching enquiries:', error);
+            }
+        };
+
+        fetchEnquiries();
+    }, []);
+
+    return (
+        <div className="container mx-auto px-4 py-8">
+            <h1 className="text-2xl font-bold mb-4">Admin Page</h1>
+            <div className="overflow-x-auto">
+                <table className="min-w-full table-auto">
+                    <thead>
+                        <tr>
+                            <th className="px-4 py-2">Name</th>
+                            <th className="px-4 py-2">Email</th>
+                            <th className="px-4 py-2">Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {enquiries.map((enquiry) => (
+                            <tr key={enquiry._id} className="bg-gray-100">
+                                <td className="px-4 py-2">{enquiry.fname}</td>
+                                <td className="px-4 py-2">{enquiry.email}</td>
+                                <td className="px-4 py-2">{enquiry.message}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
         </div>
-      </aside>
-      <main className="flex-grow p-4 flex flex-col">
-        <section className="mb-4">
-          <h2 className="text-xl font-semibold mb-2">Submission</h2>
-          {/* Add submission content here */}
-        </section>
-        <section>
-          <h2 className="text-xl font-semibold mb-2">Feed</h2>
-          {/* Add feed content here */}
-        </section>
-      </main>
-    </div>
-  );
-}
+    );
+};
 
 export default Admin;
