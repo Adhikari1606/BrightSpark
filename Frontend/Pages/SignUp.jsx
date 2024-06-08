@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Footer from '../Component/Footer.jsx';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate ,Link} from 'react-router-dom';
 
 export default function SignUp() {
     const [email, setEmail] = useState('');
@@ -115,7 +115,7 @@ export default function SignUp() {
                                     Create an account
                                 </button>
                                 <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                                    Already have an account? <a href="/SignIn" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Login here</a>
+                                    Already have an account? <Link to="/signIn" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign In</Link> 
                                 </p>
                             </form>
                         </div>
